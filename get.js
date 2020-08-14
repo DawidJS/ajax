@@ -5,6 +5,6 @@ ajax.send();
 function addApi() {
     ajax.onreadystatechange = function() {
         let divJS = document.getElementById("divHtml");
-        divJS.innerHTML = "koty";
+        divJS.innerHTML = ajax.response;
     }
 }
